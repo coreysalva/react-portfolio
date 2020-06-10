@@ -1,0 +1,36 @@
+.navbarColor {
+    display: flex !important;
+    flex-direction: row !important;
+    min-width: max-content;
+    background-color: #030303;
+    border: 3px solid #540c8f;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.navbarGrow { 
+    min-width: 260px;
+    max-height: 65px;
+    transition: all .3s ease-in-out; 
+}
+.navbarGrow:hover { transform: scale(1.2); }
+
+.cusNav {
+    display: flex;
+    flex-direction: row !important;
+    list-style: none;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+a {
+    color: #540c8f;
+}
+
+
+@media screen and (max-width: 575px){
+    a {
+        color: #540c8f;
+        font-size: medium;
+    }
+}

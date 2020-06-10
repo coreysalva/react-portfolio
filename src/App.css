@@ -1,0 +1,15 @@
+html,
+body {
+  height: 100%;
+  background-image: url("./spikes.png");
+}
+
+
+h1, h2, h3, p {
+  color: #590ca1;
+  font-family: 'Calibri';
+}
+
+.col-12 {
+  padding: 0px !important;
+}
